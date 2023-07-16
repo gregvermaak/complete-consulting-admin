@@ -32,7 +32,7 @@ export const LocationClient: FC<LocationClientProps> = ({ data }) => {
         </Button>
       </div>
       <Separator />
-      <DataTable columns={columns} data={data} searchKey="name" />
+      <DataTable columns={columns} data={data} searchKey="streetName" />
       <Heading title="API" description="API calls for Gallery Locations" />
       <Separator />
       <ApiList entityName="location" entityIdName="locationId" />
