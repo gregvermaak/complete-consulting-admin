@@ -17,7 +17,6 @@ interface LocationClientProps {
 
 export const LocationClient: FC<LocationClientProps> = ({ data }) => {
   const router = useRouter()
-  const params = useParams()
 
   return (
     <>
