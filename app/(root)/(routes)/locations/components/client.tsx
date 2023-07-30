@@ -6,7 +6,7 @@ import { Plus } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Heading } from "@/components/ui/heading"
 import { Separator } from "@/components/ui/separator"
-import { useParams, useRouter } from "next/navigation"
+import { useRouter } from "next/navigation"
 
 import { LocationColumn, columns } from "./columns"
 import { DataTable } from "@/components/ui/data-table"
